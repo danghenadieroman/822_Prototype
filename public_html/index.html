@@ -5,8 +5,35 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/main.css" rel="stylesheet" type="text/css"/>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="bootstrap/css/main.css" rel="stylesheet" type="text/css"/>
+
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="container customDiv">
+            <div class="row">
+                <div class="col-sm-4 well col-sm-offset-4">
+                    <div class="h3">Authentification</div>
+                    <form>
+                        <div class="form-group ">
+                            <label>Nom utilisateur:</label>
+                            <input class="form-control" placeholder="login" type="text" id="inputNomUtilisateur"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Mot de passe:</label>
+                            <input class="form-control" placeholder="mot de pass" type="text" id="inputMonDePasse"/>
+                        </div>
+                        <button type="submit" class="btn btn-default">Se connecter</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
