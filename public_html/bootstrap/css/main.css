@@ -38,12 +38,17 @@
 }
 
 .customDiv{
-    margin: 5px;
+    margin: 0px;
     border: solid;
-    border-color: red;
-    
+    border-color: white;
+    background-color: beige;
     font-size: larger;
-    min-height: 300px;
+    min-height: 100px;
+}
+
+.customMenu {
+    background-color: #c4e3f3;
+    min-height: 400px;
 }
 
 
